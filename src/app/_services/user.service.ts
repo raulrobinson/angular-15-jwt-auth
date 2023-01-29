@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 //const API_URL = 'https://api-login-jwt-mock.herokuapp.com/api/v1/';
-const API_URL = 'https://nodejs-jwt-login-backend.herokuapp.com/api/v1/user-content';
+const API_URL = 'https://nodejs-jwt-login-backend.herokuapp.com/api/v1/';
 
 @Injectable({
   providedIn: 'root',
@@ -12,7 +12,7 @@ export class UserService {
   constructor(private http: HttpClient) {}
 
   getPublicContent(): Observable<any> {
-    return this.http.get(API_URL + 'all', { responseType: 'text' });
+    return this.http.get(API_URL + 'user-content', { responseType: 'text' });
   }
 
   getUserBoard(): Observable<any> {
