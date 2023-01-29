@@ -60,12 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-15-jwt-auth:build:production",
-              "proxyConfig": "./proxy.conf.json"
+              "browserTarget": "angular-15-jwt-auth:build:production"
             },
             "development": {
-              "browserTarget": "angular-15-jwt-auth:build:development",
-              "proxyConfig": "./proxy.conf.json"
+              "browserTarget": "angular-15-jwt-auth:build:development"
             }
           },
           "defaultConfiguration": "development"
