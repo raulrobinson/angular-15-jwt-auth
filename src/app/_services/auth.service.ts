@@ -5,8 +5,8 @@ import { Observable } from 'rxjs';
 import { environment } from "../../environments/environment"
 
 /* Localmente */
-const AUTH_API = 'http://localhost:9001/api/auth/';
-//const AUTH_API = 'https://api-login-jwt-mock.herokuapp.com/api/auth/';
+//const AUTH_API = 'http://localhost:9001/api/auth/';
+const AUTH_API = 'https://api-login-jwt-mock.herokuapp.com/api/auth/';
 
 /* Variables de Entorno */
 const url = environment.Baseurl
