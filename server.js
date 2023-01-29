@@ -1,4 +1,3 @@
-
 require('dotenv').config();
 
 const express = require('express');
@@ -25,6 +24,6 @@ app.get('/*', function(req,res) {
   res.sendFile(path.join(__dirname+'/dist/angular-15-jwt-auth/index.html'));
 });
 
-app.listen(port, () => {
+app.listen(8080, () => {
   console.log(`App running on port ${port}.`);
 });
