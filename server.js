@@ -24,6 +24,6 @@ app.get('/*', function(req,res) {
   res.sendFile(path.join(__dirname+'/dist/angular-15-jwt-auth/index.html'));
 });
 
-app.listen(8080, () => {
+app.listen(port, () => {
   console.log(`App running on port ${port}.`);
 });
