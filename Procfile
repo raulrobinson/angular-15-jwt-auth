@@ -1,1 +1,1 @@
-web: node server.js
+web: ng serve --port=8000
